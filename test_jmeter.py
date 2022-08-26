@@ -7,6 +7,8 @@ import csv
 import os
 
 def return_jmeter_failures(file_name):
+    """Function takes a jtl file name from raw input
+    and prints the output for failures with PST time stamp"""
     with open(os.path.join('resources',
                            file_name), newline="\n") as infile:
         reader = csv.reader(infile)

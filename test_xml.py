@@ -5,6 +5,11 @@ import os
 import xml.etree.ElementTree as ET
 
 def modify_xml(X, Y):
+    """
+    :param X: integer in days to be added to date now and assigned to DEPART element
+    :param Y: integer in days to be added to date now and assigned to RETURN element
+    :return: void
+    """
     et = ET.parse(os.path.join('resources',
                                'test_payload1.xml'))
     root_elem = et.getroot()
