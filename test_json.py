@@ -15,7 +15,7 @@ def modify_json(filename, *args):
         [i for i in v if i not in args] if isinstance(v, list) else v for k, v in remove.items()
                                      if k not in args}
     with open(os.path.join('resources',
-                           'test_payload_output.json'), 'w+') as output:
+                           filename), 'w+') as output:
         et = function_dict(et)
         output.write(json.dumps(et, indent=4))
 

@@ -1,0 +1,17 @@
+{
+    "spreadsheetName": "ABC.xls",
+    "inParams": {
+        "retdt": "2019-04-10",
+        "appdate": "2019-04-02",
+        "statecode": "CA"
+    },
+    "outParams": [
+        "dateeff",
+        "coverageresult",
+        "calcdescr",
+        "errorchk",
+        "planresult",
+        "prem"
+    ],
+    "sessionId": null
+}
