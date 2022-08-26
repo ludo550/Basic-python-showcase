@@ -21,7 +21,7 @@ def return_jmeter_failures(file_name):
         [print('{lb}: \n'
                '  response code: {rc} \n'
                '  response message: {rm} \n'
-               '  failure: message{fm} \n'
+               '  failure message:{fm} \n'
                '  time: {ts}\n'.format(lb=data.label,
                                    rc=data.responseCode,
                                    rm=data.responseMessage,
