@@ -4,6 +4,7 @@ from importlib import resources
 
 def modify_json(filename, *args):
     """
+    :param filename: name of the file to write new output to
     :param args: multiple string args that are removed from nested json
     :return: void
     """
