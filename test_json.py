@@ -2,7 +2,10 @@ import os
 import json
 from importlib import resources
 def modify_json(*args):
-    """Function takes multiple keys and removes them from a nested json"""
+    """
+    :param args: multiple string args that are removed from nested json
+    :return: void
+    """
     et = json.loads(resources.read_text('resources',
                                         'test_payload.json'))
 
