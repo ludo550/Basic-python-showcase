@@ -7,7 +7,7 @@ import os
 
 def return_jmeter_failures(file_name):
     """
-    :param file_name: jtl file name from raw input
+    :param file_name: jtl file name from input
     and prints the output for failures with PST time stamp
     :return: void
     Note: Could not use f strings due to IDE errors although latest version of python is installed.
