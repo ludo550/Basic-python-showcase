@@ -19,8 +19,10 @@ as an argument, and removes that element from test_payload.json.](https://github
     
     Please verify that the method can remove either nested or non-nested elements
     (try removing "outParams" and "appdate").
-
-    [Please write the modified json to a new file.](https://github.com/ludo550/python-exercise/blob/master/resources/test_payload_output.json)
+    
+    Both of the following are done in the same script and using same method
+    [Please write the modified json to a new file. - removed outParams and appdate](https://github.com/ludo550/python-exercise/blob/master/resources/test_payload_output.json)
+    [Please write the modified json to a new file. - removed several fields including members of outParam list](https://github.com/ludo550/python-exercise/blob/master/resources/test_payload_output1.json)
 
 3. [Create a python script that parses jmeter log files in CSV format,
 and in the case if there are any non-successful endpoint responses recorded in the log,

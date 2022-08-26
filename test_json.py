@@ -2,7 +2,7 @@ import os
 import json
 from importlib import resources
 
-def modify_json(*args):
+def modify_json(filename, *args):
     """
     :param args: multiple string args that are removed from nested json
     :return: void
@@ -19,4 +19,5 @@ def modify_json(*args):
         et = function_dict(et)
         output.write(json.dumps(et, indent=4))
 
-modify_json("planselect_1", "dateterm", "covgsummary", "deptdt")
+modify_json("test_payload_output.json", "appdate", "outParams")
+modify_json("test_payload_output2.json", "planselect_1", "dateterm", "covgsummary", "deptdt")
