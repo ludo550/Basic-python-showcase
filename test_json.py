@@ -19,5 +19,8 @@ def modify_json(filename, *args):
         et = function_dict(et)
         output.write(json.dumps(et, indent=4))
 
+# remove suggested fields
 modify_json("test_payload_output.json", "appdate", "outParams")
+
+# remove different fields including memebers of list
 modify_json("test_payload_output2.json", "planselect_1", "dateterm", "covgsummary", "deptdt")
