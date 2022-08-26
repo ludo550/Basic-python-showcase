@@ -32,8 +32,8 @@ def return_jmeter_failures(file_name):
 
     failure_color = "\x1b[7;33;41m"
     success_color = "\x1b[0;30;42m"
-    print("{}Failures grouped by labels are: \n\n{}".format(failure_color, '\n'.join(failures))) \
-        if len(failures) > 0 else print("{}No failures found".format(success_color))
+    print("{}Failures grouped by labels are: \n\n{}".format(failure_color, '\n'.join(failures))
+          if len(failures) > 0 else "{}No failures found".format(success_color))
 color = "\x1b[1;33;40m"
 file_name = input("{}Please enter the jmeter jtl file name with the csv content(Extension should be included): ".format(color))
 return_jmeter_failures(file_name)
