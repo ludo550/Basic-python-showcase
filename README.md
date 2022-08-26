@@ -1,9 +1,9 @@
-Notes
+**Notes**
 
 - Input and output files are in resources directory
 - jmeter script prints output but doesn't write to a file as was not instructed.
 
-Python excercise
+**Python excercise**
 
 1. [Create a python method that takes arguments int X and int Y,
 and updates DEPART and RETURN fields in test_payload1.xml](https://github.com/ludo550/python-exercise/blob/master/test_xml.py):
@@ -25,7 +25,8 @@ and the time of non-200 response in human-readable format in PST timezone
 (e.g. 2021-02-09 06:02:55 PST).](https://github.com/ludo550/python-exercise/blob/master/test_jmeter.py)
 Please use Jmeter_log1.jtl, Jmeter_log2.jtl as input files for testing out your script
 (the files have .jtl extension but the format is  CSV).
-*jmeter_log1.jtl output*:
+
+**jmeter_log1.jtl output**:
 ![jmeter_log1.jtl](https://github.com/ludo550/python-exercise/blob/master/resources/jmeter_log1.PNG)
-*jmeter_log2.jtl output*:
+**jmeter_log2.jtl output**:
 ![jmeter_log2.jtl](https://github.com/ludo550/python-exercise/blob/master/resources/jmeter_log2.PNG)
