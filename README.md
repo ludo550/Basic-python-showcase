@@ -7,10 +7,10 @@
 
 1. [Create a python method that takes arguments int X and int Y,
 and updates DEPART and RETURN fields in test_payload1.xml](https://github.com/ludo550/python-exercise/blob/master/test_xml.py):
-- DEPART gets set to X days in the future from the current date
-(whatever the current date is at the moment of executing the code)
-- RETURN gets set to Y days in the future from the current date
-[Please write the modified XML to a new file.](https://github.com/ludo550/python-exercise/blob/master/resources/test_payload1_Output.xml)
+    - DEPART gets set to X days in the future from the current date
+    (whatever the current date is at the moment of executing the code)
+    - RETURN gets set to Y days in the future from the current date
+    [Please write the modified XML to a new file.](https://github.com/ludo550/python-exercise/blob/master/resources/test_payload1_Output.xml)
 
 2. [Create a python method that takes a json element
 as an argument, and removes that element from test_payload.json.](https://github.com/ludo550/python-exercise/blob/master/test_json.py)
