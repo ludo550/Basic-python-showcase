@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9bcc4a4-17b7-4eab-8958-bd55c3eb5a6e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/jmeter_log2.PNG" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/Jmeter_log2.PNG" afterPath="$PROJECT_DIR$/resources/jmeter_log2.PNG" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -911,12 +911,12 @@
       <workItem from="1661452397101" duration="301000" />
       <workItem from="1661453001104" duration="2415000" />
       <workItem from="1661455609726" duration="12600000" />
-      <workItem from="1661469637900" duration="8412000" />
+      <workItem from="1661469637900" duration="8462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23728000" />
+    <option name="totallyTimeSpent" value="23778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1726" height="928" extended-state="6" />
