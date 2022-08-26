@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9bcc4a4-17b7-4eab-8958-bd55c3eb5a6e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/Jmeter_log2.PNG" afterPath="$PROJECT_DIR$/resources/jmeter_log2.PNG" />
-    </list>
+    <list default="true" id="a9bcc4a4-17b7-4eab-8958-bd55c3eb5a6e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -86,6 +84,13 @@
               </first_editor>
               <second_editor />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jmeter_log2.PNG" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/jmeter_log2.PNG">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -104,16 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
               <caret line="23" column="65" lean-forward="true" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_payload1_Output.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/test_payload1_Output.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -911,12 +906,12 @@
       <workItem from="1661452397101" duration="301000" />
       <workItem from="1661453001104" duration="2415000" />
       <workItem from="1661455609726" duration="12600000" />
-      <workItem from="1661469637900" duration="8462000" />
+      <workItem from="1661469637900" duration="8519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23778000" />
+    <option name="totallyTimeSpent" value="23835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1726" height="928" extended-state="6" />
@@ -1209,6 +1204,11 @@
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/jmeter_log2.PNG">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
