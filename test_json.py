@@ -1,6 +1,7 @@
 import os
 import json
 from importlib import resources
+
 def modify_json(*args):
     """
     :param args: multiple string args that are removed from nested json
