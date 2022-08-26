@@ -15,20 +15,20 @@ def return_jmeter_failures(file_name):
     with open(os.path.join('resources',
                            file_name), newline="\n") as infile:
         reader = csv.reader(infile)
-        Data = namedtuple("Data", next(reader))
+        Responses = namedtuple("Responses", next(reader))
         failures = []
         [failures.append('{lb}: \n'
                          '  response code: {rc} \n'
                          '  response message: {rm} \n'
                          '  failure message:{fm} \n'
-                         '  time: {ts}\n'.format(lb=data.label,
-                                                 rc=data.responseCode,
-                                                 rm=data.responseMessage,
-                                                 fm=data.failureMessage,
-                                                 ts=str(datetime.fromtimestamp(int(data.timeStamp)/1000)
+                         '  time: {ts}\n'.format(lb=response.label,
+                                                 rc=response.responseCode,
+                                                 rm=response.responseMessage,
+                                                 fm=response.failureMessage,
+                                                 ts=str(datetime.fromtimestamp(int(response.timeStamp)/1000)
                                                         .replace(tzinfo=tz.utc).astimezone(timezone("US/Pacific"))
                                                         .strftime("%Y-%m-%d %H:%M:%S PST"))))
-                         for data in map(Data._make, reader) if data.responseCode != '200']
+                         for response in map(Responses._make, reader) if response.responseCode != '200']
 
     failure_color = "\x1b[7;33;41m"
     success_color = "\x1b[0;30;42m"
