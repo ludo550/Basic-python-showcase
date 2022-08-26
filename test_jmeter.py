@@ -1,6 +1,5 @@
 from collections import namedtuple
-from datetime import datetime
-from datetime import timezone as tz
+from datetime import datetime, timezone as tz
 from pytz import timezone
 
 import csv
