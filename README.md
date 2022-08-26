@@ -1,5 +1,6 @@
 **Notes**
 
+- Python version used : 3.10.6 , Platform: Windows
 - Input and output files are in resources directory
 - jmeter script prints output but doesn't write to a file as was not instructed.
 
